@@ -13,7 +13,7 @@ from eatlib import *  # import eatlib - the only library you'll ever need
 
 # do some housekeeping and create some variables
 st.set_page_config(layout="wide")
-example_data_path = 'C:/Streamlit/trend_data_app-main/example_data'
+example_data_path = 'C:/Streamlit/trend_data_app-main/example data'
 logo = 'C:/Streamlit/trend_data_app-main/images/EAT LOGO_COLOR.png'
 df = []
 fig = go.Figure()
