@@ -10,6 +10,6 @@ secondaryBackgroundColor="#F0F2F6"
 textColor="#000000"
 font="sans serif"   # options are "serif", "sans serif", and "monospace"
 
-[server]
-# set server port to 80 for hosting on P2S Windows IIS server
-port=80
+# [server]
+# # set server port to 80 for hosting on P2S Windows IIS server
+# port=80
