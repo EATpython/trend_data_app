@@ -11,10 +11,16 @@ from eatlib import *  # import eatlib - the only library you'll ever need
 ####################################################################################################################
 # SCRIPT
 
+# # set paths for P2S computer install
+# example_data_path = 'C:/Streamlit/trend_data_app-main/example data/'
+# logo = 'C:/Streamlit/trend_data_app-main/images/EAT LOGO_COLOR.png'
+
+# set paths for Streamlit hosted app
+example_data_path = 'example data/'
+logo = 'images/EAT LOGO_COLOR.png'
+
 # do some housekeeping and create some variables
 st.set_page_config(layout="wide")
-example_data_path = 'C:/Streamlit/trend_data_app-main/example data/'
-logo = 'C:/Streamlit/trend_data_app-main/images/EAT LOGO_COLOR.png'
 df = []
 fig = go.Figure()
 
